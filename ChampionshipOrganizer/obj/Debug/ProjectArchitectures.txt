@@ -1,0 +1,1 @@
+C:\Users\aleix\Documents\Visual Studio 2012\Projects\ChampionshipOrganizer\ChampionshipOrganizer\ChampionshipOrganizer.csproj;neutral

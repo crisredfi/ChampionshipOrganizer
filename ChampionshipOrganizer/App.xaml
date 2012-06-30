@@ -1,0 +1,24 @@
+﻿<Application
+    x:Class="ChampionshipOrganizer.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ChampionshipOrganizer"
+    xmlns:localData="using:ChampionshipOrganizer.Data">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+                <!-- 
+                    Estilos que definen aspectos comunes de la apariencia de la aplicación.
+                    Requeridos por las plantillas de elementos y proyecto de Visual Studio.
+                 -->
+                <ResourceDictionary Source="Common/StandardStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Recursos específicos de la aplicación -->
+
+            <x:String x:Key="AppName">ChampionshipOrganizer</x:String>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
